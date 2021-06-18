@@ -14,22 +14,34 @@
     <h2>Type "yes" or "no" in each box to find out!</h2>
 
     <form id="questions">
-      <label for="q1">Do you like pina coladas?</label>
-      <input id="q1" type="text">
-      <label for="q2">Do you enjoy getting caught in the rain?</label>
-      <input id="q2" type="text">
-      <label for="q3">Are you into yoga?</label>
-      <input id="q3" type="text">
-      <label for="q4">Do you have half a brain?</label>
-      <input id="q4" type="text">
-      <label for="q5">Are you into champagne?</label>
-      <input id="q5" type="text">
+      <ul>
+        <li>
+          <label for="q1">Do you like pina coladas?</label>
+          <input id="q1" type="text">
+        </li> 
+        <li> 
+          <label for="q2">Do you enjoy getting caught in the rain?</label>
+          <input id="q2" type="text">
+        </li>
+        <li>  
+          <label for="q3">Are you into yoga?</label>
+          <input id="q3" type="text">
+        </li>
+        <li>  
+          <label for="q4">Do you have half a brain?</label>
+          <input id="q4" type="text">
+        </li>
+        <li>  
+          <label for="q5">Are you into champagne?</label>
+          <input id="q5" type="text">
+        </li>
+      </ul>
 
       <button type="submit" class="btn">Find my language!</button>
 
     </form>
 
-    <div id="answer">
+    <div id="answer" class="answer">
       <p>You should try out <span id="language"></span> first!</p>
     </div>
   </div>

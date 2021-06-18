@@ -1,7 +1,16 @@
 .btn {
   display: block;
+  background-color: blue;
+  color: white;
 }
 
 #answer {
   display: none;
+}
+
+.answer {
+  float: left;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 5px solid blue;
 }
